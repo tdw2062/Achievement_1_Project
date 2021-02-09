@@ -343,6 +343,7 @@ button:focus,
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
           animation: 30s cloud-move infinite alternate linear;
+          fill:#E6E7E8;
 }
 
 @-webkit-keyframes cloud-move-reverse {

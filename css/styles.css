@@ -96,7 +96,7 @@ button:hover, button:focus {
 
 .button_secondary {
   background-color: var(--primary-color);
-  color: var(--primary-color);
+  color: White;
 }
 
 .navigation-list_item--active {
@@ -264,26 +264,28 @@ button:focus,
 
 @keyframes cloud-move{
   from {
-    transform:translate(0, 50px);
+    transform:translate(0, 0px);
   }
   to {
-    transform: translate(200px, 50px);
+    transform: translate(200px, 0px);
   }
 }
 
 .cloud-front {
   animation: 30s cloud-move infinite alternate linear;
+  fill:#E6E7E8;
 }
 
 @keyframes cloud-move-reverse {
   from {
-    transform: translate(446px, 48px);
+    transform: translate(0px, 0px);
   }
   to {
-    transform: translate(100px, 48px);
+    transform: translate(-200px, 0px);
   }
 }
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+  fill:#E6E7E8;
 }
