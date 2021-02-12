@@ -267,7 +267,7 @@ button:focus,
     transform:translate(0, 0px);
   }
   to {
-    transform: translate(200px, 0px);
+    transform: translate(200px, 0px); 
   }
 }
 
